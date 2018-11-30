@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/categories"
+        android:layout_width="195dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="categories"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/american"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/asian"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="53dp"
+        android:text="Asian"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/mexican"
+        app:layout_constraintEnd_toStartOf="@+id/american"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categories" />
+
+    <Button
+        android:id="@+id/american"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginBottom="53dp"
+        android:text="American"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/pizza"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/asian"
+        app:layout_constraintTop_toBottomOf="@+id/categories" />
+
+    <Button
+        android:id="@+id/mexican"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="54dp"
+        android:text="Mexican"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/coffee"
+        app:layout_constraintEnd_toStartOf="@+id/pizza"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/asian" />
+
+    <Button
+        android:id="@+id/pizza"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginBottom="53dp"
+        android:text="Pizza"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mexican"
+        app:layout_constraintTop_toBottomOf="@+id/american" />
+
+    <Button
+        android:id="@+id/coffee"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="83dp"
+        android:text="Coffee"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mexican" />
+
+    <Button
+        android:id="@+id/bar"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="83dp"
+        android:text="Bar"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/coffee"
+        app:layout_constraintTop_toBottomOf="@+id/pizza" />
+</android.support.constraint.ConstraintLayout>
