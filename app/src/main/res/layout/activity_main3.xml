@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main3Activity">
+    android:visibility="visible"
+    tools:context=".Main3Activity"
+    tools:layout_editor_absoluteY="81dp">
 
     <Button
         android:id="@+id/chicago"
         android:layout_width="143dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="41dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="18dp"
         android:text="Chicago"
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/urbana"
@@ -21,8 +23,8 @@
     <Button
         android:id="@+id/urbana"
         android:layout_width="143dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="198dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="177dp"
         android:text="Urbana"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,19 +34,18 @@
 
     <Button
         android:id="@+id/city"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="69dp"
-        android:layout_marginLeft="69dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="43dp"
-        android:layout_marginRight="43dp"
-        android:layout_marginBottom="29dp"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="49dp"
         android:text="cities"
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/chicago"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
