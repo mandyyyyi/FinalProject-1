@@ -1,5 +1,6 @@
 package com.example.dingyuxi.finalproject;
 
+import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
@@ -24,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
     /** Default logging tag for messages from the main activity. */
     private static final String TAG = "Yelp";
 
+    /**
+     * city
+     */
+    private TextInputLayout textInputCity;
+
     /** Request queue for our network requests. */
     private static RequestQueue requestQueue;
 
@@ -40,14 +46,44 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button next = (Button) findViewById(R.id.start);
-        next.setOnClickListener(new View.OnClickListener() {
+
+
+//        Button next = (Button) findViewById(R.id.start);
+//        next.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View view) {
+//                Intent myIntent = new Intent(view.getContext(), Main2Activity.class);
+//                startActivityForResult(myIntent, 0);
+//            }
+//
+//        });
+
+        Button start = (Button) findViewById(R.id.start);
+        start.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), Main3Activity.class);
+                startActivityForResult(myIntent, 0);
+            }
+
+        });
+
+        Button chicago = (Button) findViewById(R.id.chicago);
+        chicago.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent myIntent = new Intent(view.getContext(), Main2Activity.class);
                 startActivityForResult(myIntent, 0);
             }
 
         });
+
+        Button urbana = (Button) findViewById(R.id.urbana);
+        urbana.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), Main2Activity.class);
+                startActivityForResult(myIntent, 0);
+            }
+
+        });
+
 
         final Button startAPICall = findViewById(R.id.Yelp);
         startAPICall.setOnClickListener(new View.OnClickListener() {

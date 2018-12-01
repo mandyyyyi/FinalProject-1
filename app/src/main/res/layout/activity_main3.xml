@@ -2,30 +2,49 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/city"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:visibility="visible"
     tools:context=".Main3Activity">
 
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/textInputLayout"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="180dp"
-        android:layout_marginEnd="9dp"
-        android:layout_marginRight="9dp"
+    <Button
+        android:id="@+id/chicago"
+        android:layout_width="143dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="41dp"
+        android:text="Chicago"
         android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/urbana"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordToggleDrawable="@id/cities">
+        app:layout_constraintTop_toBottomOf="@+id/city" />
 
-        <android.support.design.widget.TextInputEditText
-            android:id="@+id/cities"
-            android:layout_width="300dp"
-            android:layout_height="100dp"
-            android:layout_weight="8"
-            android:hint="@string/enter_cities" />
-    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/urbana"
+        android:layout_width="143dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="198dp"
+        android:text="Urbana"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chicago" />
+
+    <Button
+        android:id="@+id/city"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="29dp"
+        android:text="cities"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/chicago"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
