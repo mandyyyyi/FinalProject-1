@@ -9,7 +9,7 @@ import android.widget.Button;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
-public class Main3Activity extends AppCompatActivity {
+public class City extends AppCompatActivity {
 
     /** Request queue for our network requests. */
     private static RequestQueue requestQueuee;
@@ -24,20 +24,20 @@ public class Main3Activity extends AppCompatActivity {
         Button chicago = (Button) findViewById(R.id.chicago);
         chicago.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent mySecondIntent = new Intent(view.getContext(), Main2Activity.class);
+                Intent mySecondIntent = new Intent(view.getContext(), CuisineCategory.class);
                 startActivityForResult(mySecondIntent, 0);
             }
 
         });
 
-        Button urbana = (Button) findViewById(R.id.urbana);
-        urbana.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                Intent myThirdIntent = new Intent(view.getContext(), Main2Activity.class);
-                startActivityForResult(myThirdIntent, 0);
-            }
-
-        });
+//        Button urbana = (Button) findViewById(R.id.urbana);
+//        urbana.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View view) {
+//                Intent myThirdIntent = new Intent(view.getContext(), CuisineCategory.class);
+//                startActivityForResult(myThirdIntent, 0);
+//            }
+//
+//        });
 
     }
 }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:visibility="visible"
-    tools:context=".Main3Activity"
+    tools:context=".City"
     tools:layout_editor_absoluteY="81dp">
 
     <Button
@@ -17,6 +17,7 @@
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/urbana"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/city" />
 
@@ -35,17 +36,16 @@
     <Button
         android:id="@+id/city"
         android:layout_width="250dp"
-        android:layout_height="80dp"
+        android:layout_height="0dp"
         android:layout_marginStart="65dp"
         android:layout_marginLeft="65dp"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="65dp"
         android:layout_marginRight="65dp"
-        android:layout_marginBottom="49dp"
         android:text="cities"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/chicago"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
