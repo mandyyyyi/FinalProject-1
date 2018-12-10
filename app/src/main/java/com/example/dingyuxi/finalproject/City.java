@@ -24,12 +24,12 @@ public class City extends AppCompatActivity {
         Button chicago = (Button) findViewById(R.id.chicago);
         chicago.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent mySecondIntent = new Intent(view.getContext(), CuisineCategory.class);
-                startActivityForResult(mySecondIntent, 0);
+                Intent myThirdIntent = new Intent(view.getContext(), CuisineCategory.class);
+                startActivityForResult(myThirdIntent, 0);
             }
 
         });
-
+//
 //        Button urbana = (Button) findViewById(R.id.urbana);
 //        urbana.setOnClickListener(new View.OnClickListener() {
 //            public void onClick(View view) {

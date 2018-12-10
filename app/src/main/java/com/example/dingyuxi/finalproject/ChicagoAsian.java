@@ -17,10 +17,21 @@ public class ChicagoAsian extends AppCompatActivity {
 
         //ca1 stands for chicago restaurant 1
         Button ca1 = (Button) findViewById(R.id.asian1);
-        String ca1name = getIntent().getStringExtra("restaurant_name");
-        Log.d("RES", ca1name);
+        String ca1name = getIntent().getStringExtra("restaurant-name");
+        //String ca1name = restaurant1;
+        //Log.d("RES", ca1name);
         ca1.setText(ca1name);
         ca1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+
+                Intent myIntent = new Intent(view.getContext(), Main5Activity.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+        Button ca2 = (Button) findViewById(R.id.asian2);
+        String ca2name = getIntent().getStringExtra("restaurant-name2");
+        ca2.setText(ca2name);
+        ca2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
 
                 Intent myIntent = new Intent(view.getContext(), Main5Activity.class);

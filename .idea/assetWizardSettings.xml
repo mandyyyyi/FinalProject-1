@@ -46,7 +46,8 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="foregroundImage" value="$USER_HOME$/Desktop/Chicago.png" />
+                                      <entry key="foregroundImage" value="$USER_HOME$/Desktop/food.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_launcher_food" />
                                     </map>
                                   </option>
                                 </PersistentState>
