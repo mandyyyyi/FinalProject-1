@@ -33,7 +33,7 @@ public class ChicagoAsian extends AppCompatActivity {
         ca2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
 
-                Intent myIntent = new Intent(view.getContext(), Main6Activity.class);
+                Intent myIntent = new Intent(view.getContext(), Main7Activity.class);
                 startActivityForResult(myIntent, 0);
             }
         });
