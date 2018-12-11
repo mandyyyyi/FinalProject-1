@@ -9,19 +9,20 @@
     <Button
         android:id="@+id/asian1"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="137dp"
         android:layout_marginBottom="255dp"
         android:text="Button"
         app:layout_constraintBottom_toTopOf="@+id/asian4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/asian3"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="113dp"
+        android:layout_height="166dp"
+        android:layout_marginBottom="125dp"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,18 +33,19 @@
     <Button
         android:id="@+id/asian2"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="128dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="100dp"
         android:text="Button"
         app:layout_constraintBottom_toTopOf="@+id/asian3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/asian4"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="153dp"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
