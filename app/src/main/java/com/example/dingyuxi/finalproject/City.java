@@ -29,15 +29,7 @@ public class City extends AppCompatActivity {
             }
 
         });
-//
-//        Button urbana = (Button) findViewById(R.id.urbana);
-//        urbana.setOnClickListener(new View.OnClickListener() {
-//            public void onClick(View view) {
-//                Intent myThirdIntent = new Intent(view.getContext(), CuisineCategory.class);
-//                startActivityForResult(myThirdIntent, 0);
-//            }
-//
-//        });
+
 
     }
 }

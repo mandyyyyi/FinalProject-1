@@ -19,9 +19,9 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundLayerName" value="ic_launcher_purplePig" />
-                                      <entry key="foregroundImage" value="$USER_HOME$/Desktop/res1.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_launcher_res1" />
-                                      <entry key="outputName" value="startpage" />
+                                      <entry key="foregroundImage" value="$USER_HOME$/Desktop/res2.jpg" />
+                                      <entry key="foregroundLayerName" value="ic_launcher_restaurantt" />
+                                      <entry key="outputName" value="restaurantt" />
                                     </map>
                                   </option>
                                 </PersistentState>

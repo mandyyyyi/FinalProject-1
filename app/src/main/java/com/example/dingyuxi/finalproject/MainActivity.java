@@ -26,14 +26,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         requestQueue = Volley.newRequestQueue(this);
         setContentView(R.layout.mainactivity);
-//        Button myButton = (Button) findViewById(R.id.get_weather);
-//        myButton.setOnClickListener(new OnClickListener() {
-//            public void onClick(View v) {
-//                ImageView iv = (ImageView) findViewById(R.id.imageView);
-//                iv.setVisibility(View.VISIBLE);
-//            }
-//        });
-
 
         Button start = (Button) findViewById(R.id.start);
         start.setOnClickListener(new View.OnClickListener() {

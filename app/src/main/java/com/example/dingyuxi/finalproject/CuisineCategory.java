@@ -144,11 +144,6 @@ public class CuisineCategory extends AppCompatActivity {
             intent.putExtra("restaurant-name3", restaurant3);
             intent.putExtra("restaurant-name4", restaurant4);
             startActivity(intent);
-//            Log.d(TAG, a);
-
-            /*Intent main5 = new Intent(CuisineCategory.this, Main5Activity.class);
-            intent.putExtra("average_cost_for_two", cost1);
-            startActivity(main5);*/
 
         } catch(Exception e) {
             Log.d(TAG, "Sorry, we don't have Asian food");
