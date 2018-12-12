@@ -28,7 +28,7 @@ public class Main5Activity extends AppCompatActivity {
                 Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(CuisineCategory.getUrl()));
                 startActivityForResult(myIntent, 0);
                 startActivity(myIntent);
-                
+
             }
         });
 
